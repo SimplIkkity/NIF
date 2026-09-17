@@ -2,107 +2,204 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="NIF-2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>NIF | Ikki</title>
+
+    <meta name="description" content="NIF's little corner of the internet. Minecraft projects, modpacks, and stupid shenanigans." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Roboto+Condensed:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="NIF-2.css" />
   </head>
 
   <body>
-    <main>
-      <!-- HERO | START -->
-      <section class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <img src="NIF.png" alt="NIF" class="hero-logo" />
+    <main class="page">
+      <!-- =====================================================
+           AMBIENT BACKGROUND
+           ===================================================== -->
 
-            <div class="hero-text">
-              <p class="eyebrow">NIF / ALIVE</p>
+      <div class="background-glow glow-top" aria-hidden="true"></div>
+      <div class="background-glow glow-bottom" aria-hidden="true"></div>
 
-              <h1>Hi, I'm NIF.</h1>
+      <!-- =====================================================
+           MAIN CONTENT
+           ===================================================== -->
+
+      <div class="container">
+        <!-- ===================================================
+             BENTO INTRO
+             =================================================== -->
+
+        <section class="bento">
+          <!-- =================================================
+               HERO
+               ================================================= -->
+
+          <section class="hero glass">
+            <div class="hero-glow" aria-hidden="true"></div>
+
+            <div class="hero-content">
+              <p class="label accent">NIF / ALIVE · 2026</p>
+
+              <h1>Hi, I'm <span class="accent">IKKI</span>.</h1>
 
               <p class="hero-role">
-                Soon To Be Content Creator
+                SOON TO BE CONTENT CREATOR
                 <span>•</span>
-                Doing Stupid Shenanigans
+                NO, I'M NOT MARRIED YET
               </p>
 
-              <p class="hero-description">Hi, there :D</p>
-              <p class="hero-description">I'm NIF, and i make... well... modpack and... something else i guess...</p>
-              <p class="hero-description">Listen dude, i'm new to this website thingy so stfu okay?...</p>
+              <div class="hero-description">
+                <p>Hi, there :D</p>
+
+                <p>
+                  I'm Nandara <span class="accent"><a href="truth/truth.html" target="_blank">Ishiki Yui</a></span> Febriansyah, and I make... well... modpacks and... something else I guess.
+                </p>
+
+                <p>I'm still figuring out this whole website thing, so don't expect anything too serious.</p>
+              </div>
 
               <div class="hero-actions">
-                <a href="#projects" class="secondary-link"> View Projects </a>
+                <a href="#projects" class="btn glass-strong">
+                  View Projects
+                  <span>↗</span>
+                </a>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- HERO | END -->
+          </section>
 
-      <!-- ABOUT | START -->
-      <section class="about">
-        <div class="container">
-          <div class="simple-grid">
-            <div>
-              <p class="section-label">ABOUT ME</p>
+          <!-- =================================================
+               PROFILE IMAGE
+               ================================================= -->
+
+          <section class="profile-card glass">
+            <div class="profile-image-wrapper">
+              <div class="profile-image-backdrop"></div>
+
+              <img src="NIF.png" alt="NIF" class="profile-image" />
+
+              <div class="profile-image-tag glass">
+                <span class="status-dot"></span>
+                NIF / ALIVE
+              </div>
             </div>
+          </section>
 
-            <div class="about-text">
-              <p>Most of my projects started as personal setups for Minecraft. I usually take something I already enjoy and put it together until it feels right.</p>
+          <!-- =================================================
+               PROJECT COUNT
+               ================================================= -->
 
-              <p>If you happen to enjoy them too, feel free to download and use them.</p>
+          <section class="stat-card glass">
+            <p class="label">PROJECTS</p>
+
+            <div class="stat-content">
+              <p class="stat-number">03</p>
+
+              <p class="stat-caption">Minecraft modpack projects.</p>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- ABOUT | END -->
+          </section>
 
-      <!-- PROJECTS | START -->
-      <section id="projects" class="projects">
-        <div class="container">
+          <!-- =================================================
+               CURRENTLY
+               ================================================= -->
+
+          <section class="currently glass-strong">
+            <p class="label accent">CURRENTLY</p>
+
+            <p class="currently-text">
+              Making Minecraft stuff, experimenting with new ideas, and slowly figuring out what the hell I'm doing. Not only did i make minecraft modpack, i do create minecraft skins for fun. I've currently experimenting on soft shading,
+              minecraft trailer-ish design. I also love to create a lore to my skin so maybe in the future i'll publish a lore to each character and skin that i was making to public.
+            </p>
+          </section>
+
+          <!-- =================================================
+               CORE EXPERTISE
+               ================================================= -->
+
+          <section class="skills glass">
+            <p class="label">CORE EXPERTISE</p>
+
+            <div class="chips">
+              <span class="chip glass"> Design </span>
+
+              <span class="chip glass"> Modpacks </span>
+
+              <span class="chip glass"> Minecraft Java </span>
+
+              <span class="chip glass"> Skins </span>
+
+              <span class="chip glass"> 128px Skins </span>
+
+              <span class="chip glass"> Dubbing </span>
+
+              <span class="chip glass"> Content Creation </span>
+
+              <span class="chip glass"> Shenanigans </span>
+            </div>
+          </section>
+        </section>
+
+        <!-- =====================================================
+             PROJECTS
+             ===================================================== -->
+
+        <section id="projects" class="section projects">
           <div class="section-top">
-            <p class="section-label">PROJECTS</p>
+            <div>
+              <p class="label">SELECTED WORK</p>
 
-            <p class="section-count">Minecraft Projects</p>
+              <h2>PROJECTS</h2>
+            </div>
+
+            <span class="section-meta"> MINECRAFT PROJECTS </span>
           </div>
 
           <div class="project-list">
-            <a href="https://www.curseforge.com/minecraft/modpacks/lnm-runix-recreated" target="_blank" rel="noopener noreferre" class="project-item">
+            <!-- PROJECT 01 -->
+
+            <a href="https://www.curseforge.com/minecraft/modpacks/lnm-runix-recreated" target="_blank" rel="noopener noreferrer" class="project-item">
               <div class="project-number">01</div>
 
               <div class="project-info">
-                <h2>LNM's Setup (1.21)</h2>
+                <h3>LNM'S SETUP (1.21)</h3>
 
                 <p>Recreation of RafiLNM's Runix series setup.</p>
               </div>
 
-              <div class="project-type">Curseforge</div>
+              <div class="project-type">CURSEFORGE</div>
 
               <div class="project-arrow">↗</div>
             </a>
 
-            <a href="#" class="project-item">
+            <!-- PROJECT 02 -->
+
+            <a href="#" class="project-item project-disabled" aria-label="Nanda's Tweaks — Coming Soon">
               <div class="project-number">02</div>
 
               <div class="project-info">
-                <h2>Nanda's Tweaks: Runix Setup (SOON for 26.2 - 1.21.11)</h2>
+                <h3>NANDA'S TWEAKS</h3>
 
                 <p>LNM's Setup with my own additions and tweaks.</p>
               </div>
 
-              <div class="project-type">Curseforge</div>
+              <div class="project-type">COMING SOON</div>
 
               <div class="project-arrow">↗</div>
             </a>
 
-            <a href="https://www.curseforge.com/minecraft/modpacks/ngplus" target="_blank" rel="noopener noreferre" class="project-item">
+            <!-- PROJECT 03 -->
+
+            <a href="https://www.curseforge.com/minecraft/modpacks/ngplus" target="_blank" rel="noopener noreferrer" class="project-item">
               <div class="project-number">03</div>
 
               <div class="project-info">
-                <h2>Nanda's Gameplay+</h2>
+                <h3>NANDA'S GAMEPLAY+</h3>
 
                 <p>My personal Minecraft gameplay setup.</p>
               </div>
@@ -112,52 +209,58 @@
               <div class="project-arrow">↗</div>
             </a>
           </div>
-        </div>
-      </section>
-      <!-- PROJECTS | END -->
+        </section>
 
-      <!-- SOCIALS | START -->
-      <section id="socials" class="socials">
-        <div class="container">
-          <div class="simple-grid">
-            <div>
-              <p class="section-label">LOOKING FOR ME?</p>
+        <!-- =====================================================
+             SOCIALS
+             ===================================================== -->
+
+        <section id="socials" class="section socials">
+          <div class="socials-card glass-strong">
+            <div class="socials-heading">
+              <p class="label accent">LOOKING FOR ME?</p>
+
+              <h2>
+                Find me somewhere<br />
+                on the internet.
+              </h2>
             </div>
 
             <div class="social-list">
-              <a href="https://www.youtube.com/@notIkki" target="_blank" rel="noopener noreferre">
-                YouTube
-                <span>↗</span>
+              <a href="https://www.youtube.com/@notIkki" target="_blank" rel="noopener noreferrer">
+                <span>YouTube</span>
+                <span class="social-arrow">↗</span>
               </a>
 
-              <a href="https://github.com/SimplIkkity" target="_blank" rel="noopener noreferre">
-                GitHub
-                <span>↗</span>
+              <a href="https://github.com/SimplIkkity" target="_blank" rel="noopener noreferrer">
+                <span>GitHub</span>
+                <span class="social-arrow">↗</span>
               </a>
 
-              <a href="https://www.instagram.com/simpleikki/" target="_blank" rel="noopener noreferre">
-                Instagram
-                <span>↗</span>
+              <a href="https://www.instagram.com/simpleikki/" target="_blank" rel="noopener noreferrer">
+                <span>Instagram</span>
+                <span class="social-arrow">↗</span>
               </a>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- SOCIALS | END -->
-    </main>
+        </section>
 
-    <!-- FOOTER | START -->
-    <footer>
-      <div class="container">
-        <div class="footer-content">
+        <!-- =====================================================
+             FOOTER
+             ===================================================== -->
+
+        <footer class="footer">
           <span class="footer-logo"> NIF </span>
 
-          <span> © 2026 NIF Projects </span>
-        </div>
-      </div>
-    </footer>
-    <!-- FOOTER | END -->
+          <span class="footer-text"> © 2026 NIF PROJECTS </span>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+          <span class="footer-status">
+            <span class="status-dot"></span>
+
+            ALIVE
+          </span>
+        </footer>
+      </div>
+    </main>
   </body>
 </html>
